@@ -1,0 +1,15 @@
+package com.xiaoyu.thumb;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan("com.xiaoyu.thumb.mapper")
+public class ThumbBackedApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ThumbBackedApplication.class, args);
+    }
+
+}
